@@ -66,3 +66,40 @@
 
 # z = x.union(y)
 # print(z)
+
+# set1 = {"a", "b" , "c", "d"}
+# set2 = {1, 2, 3, "d"}
+
+# set1.update(set2)
+# print(set1)
+
+# Intersection
+# Join set1 and set2, but keep only the duplicates:
+
+# set1 = {"apple", "banana", "cherry"}
+# set2 = {"google", "microsoft", "apple"}
+
+# set3 = set1.intersection(set2)
+# set4 = set1 & set2
+
+# print(set3)
+# print(set4)
+
+
+# set1 = {"apple", "banana", "cherry"}
+# set2 = {"google", "microsoft", "apple"}
+
+# set1.intersection_update(set2)
+
+# print(set1)
+
+
+# Difference
+# The difference() method will return a new set that will contain only the items from the first set that are not present in the other set.
+
+# set1 = {"apple", "banana", "cherry"}
+# set2 = {"google", "microsoft", "apple"}
+
+# set3 = set1.difference(set2)
+
+# print(set3)
