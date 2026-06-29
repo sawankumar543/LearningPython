@@ -328,6 +328,6 @@ l1.pop()
 print(l1)
 
 # fruits = ['apple', 'banana', 'cherry']
-
+# hi
 # fruits.remove("banana")
 # print(fruits)
